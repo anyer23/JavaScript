@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios de JavaScrip</title>
+
+</head>
+<body>
+    
+   <h2 id="horasc">La hora actual es </h2>
+    <script>
+        let d=new Date();
+        document.body.innerHTML= "<h2>La hora actual es: " + d.getHours() + ":" + d.getMinutes() + ":"+d.getSeconds()
+       +" desde un script"+ "</h2>"
+
+    </script> 
+    <h1>Hola JavaScrip</h1>
+
+  <!-- eje 23  <p id="pintar">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus omnis assumenda tempora. Ipsum ad dolore eligendi, illo ratione, quis odit pariatur iste quo natus nisi, minus hic ullam facilis. Dignissimos! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Praesentium, exercitationem repellat illum enim perferendis maiores temporibus. Numquam soluta at corporis tenetur laborum odit perferendis deserunt quia. Distinctio tempora aliquam vel?</p>
+-->
+    <!--<script src="JaS/modif-html.js" ></script>-->
+
+    <h1>Obtener nombre y apellido de form</h1>
+    <form action="form1" onsubmit="getFormValores()">
+        Nombre: <input  type="text" name="nombre" value="David" id="nombre"><br>
+        Apellido: <input type="text" name="apellido" value="Beckham"><br>
+        <input type="submit" value="probar">
+
+    <script src="JaS/ejercicio1.js"></script>
+
+    </body>
+</html>
